@@ -1,0 +1,200 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#navbar {
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    background-color: #db4c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h2 a {
+    color: #fff;
+    margin-left: 6em;
+    text-decoration: none;
+    font-family: 'Bungee Spice', cursive;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 7em;
+}
+
+#navbar ul li {
+    padding: .5em;
+    margin-left: 1em;
+    background-color: #fff;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#navbar ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #db4c3f;
+}
+
+.container {
+    max-width: 450px;
+    margin: 2em auto;
+}
+
+.container form{
+    margin-top: 1.5em;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #db4c3f;
+    color: #fff;
+    padding: .7em 1.5em;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.task-list h1 {
+    text-align: center;
+}
+
+.task-list li {
+    padding: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .title {
+    font-weight: bold;
+    color: #db4c3f;
+    transition: .5s;
+    font-size: 1.2em;
+    text-decoration: underline ;
+}
+
+.task-list .task-list .title:hover {
+    color: #333;
+}
+
+.title-done {
+    text-decoration: line-through;
+    color: #ccc;
+    font-weight: bold;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions .back {
+    font-size: 1.5em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i {
+    font-size: 1.5em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i:hover {
+    color: #db4c3f;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.view {
+    text-align: center;
+    color:#333;
+}
+
+.view h1,
+.view p,
+.view a {
+    margin-bottom: 2.5em;
+}
+
+.view p{
+    padding: .5em 1.5em;
+    text-align: justify;
+    max-width: 900px;
+    height: 50%;
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.view .actions-view a {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.view .actions-view a:hover {
+    color:#db4c3f;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #db4c3f;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
